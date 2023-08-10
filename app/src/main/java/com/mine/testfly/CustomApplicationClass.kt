@@ -10,7 +10,7 @@ class CustomApplicationClass : Application() {
         // Branch logging for debugging
         Branch.enableLogging();
         Branch.disableTestMode();
-
+        Branch.expectDelayedSessionInitialization(true);
         // Branch object initialization
         Branch.getAutoInstance(this)
     }

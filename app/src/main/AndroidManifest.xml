@@ -26,13 +26,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MonkeyActivity"
-            android:exported="true"
-            android:label="@string/title_activity_monkey"
-            android:launchMode="singleTask"
-            android:theme="@style/Theme.Testfly">
-        </activity>
-        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
